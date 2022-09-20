@@ -6,9 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint --fix -- --dir .",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,json,css}'"
   },
   "dependencies": {
+    "@svgr/webpack": "^6.3.1",
+    "cypress": "^10.3.1",
+    "eslint-plugin-prettier": "^4.2.1",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -17,9 +21,14 @@
     "@types/node": "18.7.18",
     "@types/react": "18.0.20",
     "autoprefixer": "^10.4.11",
+    "cypress": "^10.3.1",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "postcss": "^8.4.16",
+    "prettier": "2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.11",
     "tailwindcss": "^3.1.8",
     "typescript": "4.8.3"
   }
