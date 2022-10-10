@@ -1,7 +1,6 @@
 import Calendar from '../assets/icons/Calendar.svg';
 import Home from '../assets/icons/Home.svg';
 import Logo from '../assets/icons/LOGO.svg';
-import Logout from '../assets/icons/Logout.svg';
 import News from '../assets/icons/News.svg';
 import Profile from '../assets/icons/Profile.svg';
 import Ressources from '../assets/icons/Ressources.svg';

@@ -1,17 +1,13 @@
-import Head from 'next/head';
-import Image from 'next/image';
-
+import { Header } from '../components/Header/header';
 import { DefaultLayout } from '../components/Layouts/DefaultLayout';
 import { ContentfulMetadata } from '../helpers/Metadata';
-import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <>
       <ContentfulMetadata title={'Manaa Nojoh'} />
       <DefaultLayout>
-        <h1>Hello !</h1>
-        <hr className={"my-14"} />
+        <Header title={'Hello'} />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque placeat
           magni deleniti ullam molestiae mollitia a nisi. Eos praesentium iure
